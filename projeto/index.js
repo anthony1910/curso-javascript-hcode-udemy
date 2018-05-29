@@ -46,6 +46,7 @@ if (cor === "verde") {
 */
 
 // tabuada
+/*
 let n = 7;
 
 for (let i = 0; i <= 10; i++) {
@@ -54,3 +55,50 @@ for (let i = 0; i <= 10; i++) {
     // antigamente -> console.log(i + " X " + n + " = " + (i * n));
 
 }
+*/
+
+// funcoes
+/*
+function calc(x1, x2, operator){
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+}
+let resultado = calc(1, 2, '-');
+
+console.log(resultado);
+*/
+
+// funcao anonima
+/*
+(function(x1, x2, operator){
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+})(1, 2, '*');
+*/
+
+// arrow function
+/*
+let calc = (x1, x2, operator) => {
+
+    return eval(`${x1} ${operator} ${x2}`);
+
+}
+let resultado = calc(1, 2, '-');
+
+console.log(resultado);
+*/
+
+// eventos
+window.addEventListener('focus', event => {
+
+    console.log('focus');
+
+});
+
+document.addEventListener('click', event => {
+
+    console.log('click');
+
+})

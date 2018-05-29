@@ -1,0 +1,18 @@
+Funções -> Trechos de código que podem ser reaproveitados
+	Podemos reagir a algum procedimento
+	return -> Para a execução do código e retorna um valor
+	Tipos
+		Comum
+		Anônima -> Não possui nome
+		Arrow functions -> Maneira mais fácil de escrever funções, junto com outros recursos
+			Posso passar em um parâmetro :O
+	Parâmetros -> Informações que a função precisa
+	eval() -> Função nativa que interpreta uma string que possui comandos JS
+	callback -> Função de retorno após uma ação
+
+Classes -> Agrupam atributos e métodos no mesmo lugar
+
+DOM(Document Object Model) -> A estrutura como o HTML é formado
+	Eventos -> Reagir com o usuário a partir de uma ação. Exemplo: clique de botão
+		addEventListener() -> Função que adiciona um evento
+		Window -> Janela X Document -> Site, código HTML
