@@ -1,0 +1,43 @@
+Variáveis
+	var -> Declara variáveis
+	let -> Declara variável definindo o escopo. Leva em conta o escopo
+	const -> Declara constantes. O valor não muda, conexão de Banco de Dados
+	"Constante é constante e variável é variável"
+	Tipos
+		strings
+		números(number)
+		array -> Armazena mais de um valor
+		typeOf -> Mostra o tipo da variável
+		instanceOf -> Mostra de qual instância veio a variável. Por exemplo: Array é do tipo objeto, mas vem da instância Array
+		bool -> true e false
+		funções
+	O Javascript é uma linguagem fracamente tipada. O tipo pode variar
+	Funções para conversão
+		ParseInt
+		ParseFloat
+		toString
+Operadores
+	Operador de atribuição -> =
+	Operadores de comparação
+		== -> Compara o valor da variável
+		=== -> Compara o valor e o tipo da variável
+		!= -> Vê se o valor são diferentes
+		!== -> Vê se o valor e o tipo são diferentes
+	Operadores lógicos
+		&& -> AND. Compara as duas condições. Retorna true se as duas forem verdadeiras
+		|| -> OR. Retorna true se pelo menos uma condição é verdadeira
+
+Controladores de fluxo
+	if() e else
+	switch -> Estrutura de controle com opções pré-definidas
+		case -> Define a condição
+
+Laços de repetição
+	for() -> É necessário saber o número de vezes de repetição
+	forEach() -> Percorre um array e executa uma ação em cada índice
+	for in() -> Objetos
+	while()
+	continue -> Similar ao break. Ignora e vai para o próximo. Não para a execução
+
+Template String
+	Similar à interpolação de strings do PHP
