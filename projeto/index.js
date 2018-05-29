@@ -91,6 +91,7 @@ console.log(resultado);
 */
 
 // eventos
+/*
 window.addEventListener('focus', event => {
 
     console.log('focus');
@@ -101,4 +102,45 @@ document.addEventListener('click', event => {
 
     console.log('click');
 
-})
+});
+*/
+
+// data
+/*
+let agora = new Date();
+
+console.log(agora.toLocaleDateString('pt-BR'));
+*/
+
+// array
+let carros = ['palio 98', 'toro', 'uno', 10, true, new Date()];
+
+// console.log(carros[0]);
+
+carros.forEach(function(value, index){
+
+    console.log(index, value);
+
+});
+
+// orientacao a objetos antigamente
+/*
+let celular = function(){
+
+    this.cor = 'prata';
+
+    this.ligar = function()
+    {
+
+        console.log('uma ligação');
+
+        return 'ligando';
+
+    }
+
+}
+
+let objeto = new celular();
+
+console.log(objeto.ligar());
+*/
