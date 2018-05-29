@@ -113,6 +113,7 @@ console.log(agora.toLocaleDateString('pt-BR'));
 */
 
 // array
+/*
 let carros = ['palio 98', 'toro', 'uno', 10, true, new Date()];
 
 // console.log(carros[0]);
@@ -122,6 +123,7 @@ carros.forEach(function(value, index){
     console.log(index, value);
 
 });
+*/
 
 // orientacao a objetos antigamente
 /*
