@@ -1,0 +1,7 @@
+Datas
+	new Date() -> Classe do JS para datas
+	toLocaleDateString('locale', {parametros}) -> Função sensacional que converte a data para a linguagem local do servidor
+	setInterval() -> Realiza um mesmo procedimento várias vezes à cada quantidade de milisegundos informada
+		clearInterval('id') -> Para a execução de um interval
+	setTimeout() -> Realiza um procedimento apenas uma vez e espera a quantidade de tempo informada para executar
+		clearTimeout('id') -> Para a execução de um timeout
