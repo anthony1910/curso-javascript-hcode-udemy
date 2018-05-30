@@ -1,0 +1,2 @@
+Eventos
+	addEventListener('evento', function(){}) -> Método que adiciona uma escuta de evento para um elemento
