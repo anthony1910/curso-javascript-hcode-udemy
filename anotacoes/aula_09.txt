@@ -1,0 +1,5 @@
+DOM(Document Object Model(Modelo de Objetos do Documento)) -> Estrutura em que se baseia o documento HTML
+BOM(Browser Object Model) -> Janela do navegador, window
+	JS pode acessar elementos dos dois
+	Cada tag HTML vira um objeto no DOM
+	document.querySelector() -> Seleciona elementos por meio de seletores de CSS3
