@@ -1,0 +1,11 @@
+Orientação a Objetos -> Maneira de programar que reutiliza o código, prático, abstração, legível
+	Classe -> Segredo do negócio. Conjunto de atributos e métodos
+		Método -> Trechos de código que eu posso reutilizar
+		Atributo -> Armazena informações
+	Instância -> Quando o objeto representa a classe
+	Ajunta informações em comum
+
+MVC
+	Model -> Manipula os dados
+	View -> Usuário interage
+	Controller -> Regra de negócio
