@@ -1,0 +1,3 @@
+Eval -> Interpreta códigos JS mesmo entre aspas
+Array
+	.join("separador") -> Une os elementos do array com o separador informado
