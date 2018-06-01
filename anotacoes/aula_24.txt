@@ -1,0 +1,2 @@
+JS Audio
+	new Audio('caminho_do_audio.mp3') -> API integrada nativamente com o JS, da Web API
