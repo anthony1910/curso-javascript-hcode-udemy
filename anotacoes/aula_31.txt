@@ -1,0 +1,8 @@
+Variáveis
+	Não usar caracteres especiais em nomes de variáveis, exceto _ e $
+	Os nomes não podem começar com números
+	Nomes devem ser camelCase
+
+JS
+	querySelector() -> Retorna o primeiro item que casa com o seletor
+	querySelectorAll() -> Retorna todos os itens que correspondem com o seletor
