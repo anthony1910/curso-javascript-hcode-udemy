@@ -1,0 +1,5 @@
+JS DOM
+	.createElement('nome') -> Cria um novo elemento no DOM
+	.select() -> Seleciona o valor do elemento
+	document.execCommand('Nome') -> Executa um comando do Sistema Operacional
+	.remove() -> Remove algum elemento
