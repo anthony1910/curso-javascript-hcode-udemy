@@ -1,0 +1,6 @@
+JS
+	A arte de criar códigos -> O mais genérico possível
+
+Array
+	forEach() -> Percorre um array e para cada item executa uma ação
+	Todo array inicia em zero
