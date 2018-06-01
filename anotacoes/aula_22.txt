@@ -1,0 +1,5 @@
+JS Events
+	Teclado
+		'keypress' -> O momento em que você pressiona uma tecla
+		'keyup' -> O momento em que eu aperto e solto o botão
+		'keydown' -> Enquanto eu estou segurando o botão pressionado
