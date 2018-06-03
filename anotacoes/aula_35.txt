@@ -1,0 +1,14 @@
+JS
+	this -> Esse comando referencia atributos e métodos da própria classe
+	getElementById() -> Método usado para pegar elemento pelo ID antigamente
+	HTTP
+		GET -> Dados sempre vão pela URL
+	preventDefault() -> Método que cancela o comportamento padrão que o evento teria
+	SPA -> Single Page Application -> Aplicação de uma única página
+
+Eventos
+	JS é uma linguagem reativa - Ela interage com o usuário
+	addEventListener -> Método que prepara uma escuta
+
+Dica
+	Não criar eventos de desconto
