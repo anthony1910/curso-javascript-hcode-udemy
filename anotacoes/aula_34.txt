@@ -1,0 +1,5 @@
+JSON -> JavaScript Object Notation -> Padrão de comunicação
+	{chave: valor}
+	É um objeto literal -> Possui atributos e métodos
+Dica
+	Sempre crie códigos dinâmicos
