@@ -1,0 +1,9 @@
+Função -> Executa algo e retorna um valor
+	Subrotina -> Apenas executa algo. É um tipo diferente de função
+	return -> Retorna algum valor e encerra a função
+	Parâmetros -> Informações que a função precisa
+	innerHTML -> Retorna ou atribui o valor HTML de um elemento
+
+JS
+	TemplateString -> Utilizar ``(crase) para interpolação de variáveis e digitar HTML direto no JS
+		${variavel} -> Realiza a interpolação de variáveis
