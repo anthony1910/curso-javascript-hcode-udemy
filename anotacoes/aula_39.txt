@@ -1,0 +1,3 @@
+Refactoring -> Refatorar ou melhorar o código. Escrevê-lo de uma melhor forma
+Spread -> Operador de reticências, que espera múltiplos parâmetros
+	[... parametros]
