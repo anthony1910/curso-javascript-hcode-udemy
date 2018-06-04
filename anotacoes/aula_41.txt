@@ -1,0 +1,10 @@
+Processamentos
+	Síncrono -> Toda ação entre site e usuário ocorre em sincronia. Ex: clique do botão
+	Assíncrono -> Atividades do site não dependem da ação do usuário. Ex: executo algo sem clicar em nada
+
+JS
+	Promise(Promessa) -> Recurso novo, executa uma ação assíncrona
+		new Promise(function(resolve, reject))
+			resolve -> O que fazer se der certo
+			reject -> O que fazer se der errado
+		.then(function_do_resolve(), function_do_reject) -> Método que eu uso para definir as funções do Promise
