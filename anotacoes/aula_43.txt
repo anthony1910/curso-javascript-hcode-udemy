@@ -1,0 +1,10 @@
+Data
+	Date() -> Classe nativa do JS
+		Date(ano, mes, dia) -> Devolve a data com o índice do mês do array. Ex: maio é o índice 4
+		Date([ano, mes, dia]) -> Retorna a data respeitando o nosso calendário, normalmente. Ex: maio é o mês 5
+		Ao informar data e hora, evitamos problemas de fuso horário
+	Timestamp -> Quantidade de segundos desde 01/01/1970 00:00:00 - Usado em todos os sistemas Unix
+
+Convenção -> Atributos têm que ser privados. Criar getters e setters. Não é uma regra, mas uma boa prática
+	get -> Basta chamar objeto.propriedade e será executado
+	set -> Chamar objeto.propriedade = value e o método será executado

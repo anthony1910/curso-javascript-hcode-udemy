@@ -1,0 +1,3 @@
+Orientação a Objetos
+	Método estático -> Pode ser chamado diretamente, sem instanciar a classe
+		static nome_do_metodo()	
