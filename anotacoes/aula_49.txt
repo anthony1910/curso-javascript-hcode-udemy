@@ -1,0 +1,3 @@
+JS
+	replace("o_que_eu_procuro", "o_que_irei_substituir") -> Função nativa que substitui dados
+	continue -> Usado em laços de repetição. Ignora o restante das instruções e segue em frente
