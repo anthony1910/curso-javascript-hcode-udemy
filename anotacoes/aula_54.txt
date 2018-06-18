@@ -1,0 +1,2 @@
+sessionStorage -> Recurso da Api Web que permite armazenar dados na sessão do usuário
+	sessionStorage.setItem() -> Permite gravar dados na sessão. Se fechar o navegador, deixa de existir

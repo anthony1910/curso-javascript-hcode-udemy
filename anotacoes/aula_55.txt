@@ -1,0 +1,3 @@
+localStorage -> Recurso da API Web que armazena dados no navegador do usuário
+	Dados serão perdidos apenas com limpeza do cache ou limpando o navegador
+	localStorage.setItem() -> Grava dados no localStorage
