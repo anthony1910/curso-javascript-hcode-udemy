@@ -1,0 +1,3 @@
+db.find({}) -> Método que busca dados no Banco. Espera um objeto com os parâmetros da busca
+	.sort(nome_da_coluna: 1/-1) -> Método que ordena os dados. Espera o nome da coluna. 1 se for crescente e -1 se for decrescente
+		.exec(err, retorno_se_tiver_sucesso) -> Executa o comando
