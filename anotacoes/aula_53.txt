@@ -1,0 +1,2 @@
+JS
+	remove() -> Remove um item do array ou objeto

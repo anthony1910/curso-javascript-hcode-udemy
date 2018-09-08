@@ -1,0 +1,3 @@
+JS
+	switch
+		default -> Ação padrão que será executada se todos os cases "falharem"

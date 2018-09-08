@@ -1,0 +1,5 @@
+Switch -> Já sei o que pode acontecer. As condições são conhecidas
+
+Array
+	.push() -> Adiciona um elemento ao array
+	.pop() -> Retira o último item do array

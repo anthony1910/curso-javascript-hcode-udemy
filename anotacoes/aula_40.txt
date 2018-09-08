@@ -1,0 +1,11 @@
+JS
+	FileReader -> API nativa do JS que lê e manipula arquivos e pastas
+		new FileReader()
+
+	Funções
+		Callback -> Função usada como retorno após a execução de alguma rotina
+	
+	Array
+		.filter(funcao) -> Função que filtra um array com a regra informada e gera um novo array
+
+Base64 -> Método para codificação de dados usado na Web

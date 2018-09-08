@@ -1,0 +1,4 @@
+Variáveis -> Espaço na memória que armazena um valor temporariamente
+	var -> Comando para declarar variáveis
+
+Aula 28 -> minuto 2:43 -> Ctrl + Shift + J

@@ -1,0 +1,2 @@
+querySelector() -> Seleciona o elemento informado. Retorna apenas o primeiro
+	querySelectorAll() -> Método incrível que retorna todos os elementos encontrados com a query informada

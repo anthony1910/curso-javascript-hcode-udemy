@@ -1,0 +1,6 @@
+MVC -> Estrutura do projeto em camadas
+	Model -> Guardamos as informações
+	View -> Interface para o usuário
+	Controller -> Liga os outros dois. Realiza a regra de negócio
+
+Arrow Functions -> Exclui os conflitos de escopo. Deixa a função em um escopo global

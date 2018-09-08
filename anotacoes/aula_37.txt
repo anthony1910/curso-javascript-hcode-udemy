@@ -1,0 +1,7 @@
+Orientação a Objetos -> É um estilo de programação, uma maneira de programar
+	Classes
+		Toda classe começa com letra maiúscula
+		O que importa é o que está dentro dela
+		Métodos -> Ações que serão executadas
+			constructor() -> Método construtor que é chamado automaticamente ao instanciarmos a classe
+		new -> Instancia novo objeto, que é uma cópia da classe

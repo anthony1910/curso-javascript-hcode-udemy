@@ -1,0 +1,6 @@
+JS
+	DataSet -> Faz parte da API Web e permite a leitura e escrita em elementos com data-*
+	elemento.dataset.variavel = objeto -> Define o dataset em algum elemento HTML
+	Serialização -> Transforma um objeto em texto
+	JSON.stringify() -> Converte um objeto em string JSON
+	JSON.parse() -> Converte uma string em objeto

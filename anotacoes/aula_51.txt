@@ -1,0 +1,4 @@
+JS
+	elements
+		rowIndex -> Conta a posição do elemento a partir do 1(número total de elementos)
+		sectionRowIndex -> Conta a posição do elemento a partir do 0

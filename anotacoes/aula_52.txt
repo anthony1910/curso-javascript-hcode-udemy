@@ -1,0 +1,3 @@
+JS
+	Object
+		Object.assign({}, objeto1, objeto2(mescla_com_o_primeiro)) -> Cria um novo objeto, com a mescla dos dois objetos informados

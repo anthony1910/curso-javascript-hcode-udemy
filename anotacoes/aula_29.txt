@@ -1,0 +1,3 @@
+DOM
+	document.createElement('nome') -> Cria um novo elemento do DOM
+	document -> Documento HTML(site)

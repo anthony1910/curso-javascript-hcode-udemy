@@ -1,0 +1,2 @@
+Refactoring -> Refatorar ou melhorar o código, deixando-o mais limpo e organizado
+	Leva em conta a compatibilidade com o código já existente

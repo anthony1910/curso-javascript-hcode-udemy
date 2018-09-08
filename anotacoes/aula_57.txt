@@ -1,0 +1,6 @@
+DAO - Data Access Object
+	Separa(abstrai) a camada de dados em vários níveis para manipulação
+
+Array
+	.filter() -> Encontra um valor no array e retorna essa informação
+	.map() -> Mapeia o array. Encontra o valor. Se alterar, substitui

@@ -1,0 +1,11 @@
+Orientação a Objetos
+	constructor() -> Nome do método construtor no JS
+	this -> Referencia atributos e métodos
+	Encapsulamento -> Controla o acesso a um atributo ou método. Protege
+		public -> Todos acessam
+		protected -> Atributos da mesma classe e classe Pai
+		private -> Somente atributos e métodos da própria classe acessam
+	this._nome -> É um atributo privado
+	getters e setters -> Métodos que definem como acessar os valores
+	get nome_do_atributo(){} -> Crio método get
+	set nome_do_atributo(){} -> Crio método set
