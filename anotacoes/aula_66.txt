@@ -1,0 +1,4 @@
+Express
+	.Router() -> Recurso de rotas
+	module.exports -> Exporta um módulo
+	app.use() -> Define o arquivo de rotas que será usado no index.js
