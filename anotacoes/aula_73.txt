@@ -1,0 +1,2 @@
+nedb
+	.update({parametro: valor}, {novos_valores}, error) -> Atualiza os dados de um registro
