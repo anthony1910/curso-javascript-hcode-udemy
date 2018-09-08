@@ -1,0 +1,1 @@
+NeDB -> Banco de Dados simples, em texto
