@@ -1,0 +1,3 @@
+exports.module = error
+	Método
+		app.utils.error.send()
