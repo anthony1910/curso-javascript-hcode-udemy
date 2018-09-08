@@ -1,0 +1,3 @@
+Consign -> Facilita trabalho com requisição de arquivos de rotas
+	É chamado como método
+		.include('pasta_com_as_rotas').into(app)
