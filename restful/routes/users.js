@@ -48,7 +48,7 @@ module.exports = app => {
 
     routeId.get((req, res) => {
 
-        db.findOne({_id: req.params.id}).exec((err, user) => {
+        db.findOne({ _id: req.params.id }).exec((err, user) => {
 
             if (err) {
                 app.utils.error.send(err, req, res);
@@ -71,6 +71,22 @@ module.exports = app => {
             } else {
                 
                 res.status(200).json(Object.assign(req.params, req.body));
+
+            }
+
+        });
+
+    });
+
+    routeId.delete((req, res) => {
+
+        db.remove({ _id: req.params.id }, {}, err => {
+
+            if (err) {
+                app.utils.error.send(err, req, res);
+            } else {
+                
+                res.status(200).json(req.params);
 
             }
 
