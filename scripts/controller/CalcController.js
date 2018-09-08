@@ -25,7 +25,11 @@ class CalcController {
 
             let text = e.clipboardData.getData('Text');
 
-            this.displayCalc = parseFloat(text);
+            text = parseFloat(text);
+
+            this.displayCalc = text;
+
+            this.pushOperation(text);
 
         });
 
@@ -199,13 +203,27 @@ class CalcController {
 
     pushOperation(value){
 
-        this._operation.push(value);
+        let lastOperation = this.getLastOperation();
+
+        if (this.isOperator(lastOperation) || this._operation.length == 0) {
+            
+            if (value == 0) {
+                return false;
+            } else {
+                this._operation.push(value);
+            }
+
+        } else {
+            this._operation.push(value);
+        }
 
         if (this._operation.length > 3){
 
             this.calc();
 
         }
+
+        console.log(this._operation);
 
     }
 
@@ -248,6 +266,16 @@ class CalcController {
 
         let result = this.getResult();
 
+        if (result.toString().length > 10) {
+
+            result = result.toString().substr(0, 10);
+
+        }
+
+        if (result.toString().split(".").length > 1) {
+            result = result.toFixed(2);
+        }
+
         if (last === "%") {
 
             result /= 100;
@@ -260,7 +288,7 @@ class CalcController {
 
             if (last) this._operation.push(last);
 
-        }       
+        }
 
         this.setLastNumberToDisplay();
 
@@ -274,14 +302,14 @@ class CalcController {
 
             if (this.isOperator(this._operation[i]) === isOperator) {
 
-                lastItem = this._operation[i];
+                lastItem = this._operation[i];                
                 break;
 
             }
 
         }
 
-        if (!lastItem) {
+        if (!lastItem && lastItem !== 0) {
 
             lastItem = (isOperator) ? this._lastOperator : this._lastNumber;
 
