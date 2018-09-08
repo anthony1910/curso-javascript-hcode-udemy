@@ -1,0 +1,2 @@
+nedb
+	.findOne(parametro: valor) -> traz apenas um registro do Banco baseado nos parâmetros
