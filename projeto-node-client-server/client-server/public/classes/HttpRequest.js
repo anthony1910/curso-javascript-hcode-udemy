@@ -26,9 +26,6 @@ class HttpRequest {
 
     static request(method, url, params = {}){
 
-        console.log(method, url, params = {});
-        // return false;
-
         return new Promise((resolve, reject) => {
 
             let ajax = new XMLHttpRequest();
