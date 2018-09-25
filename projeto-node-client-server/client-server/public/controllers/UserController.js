@@ -62,7 +62,7 @@ class UserController {
                         btn.disabled = false;
 
                         this.showPanelCreate();
-
+                        
                     });
 
                 },
@@ -101,7 +101,7 @@ class UserController {
                         this.formEl.reset();
 
                         btn.disabled = false;
-
+                        
                     });
 
                 }, 

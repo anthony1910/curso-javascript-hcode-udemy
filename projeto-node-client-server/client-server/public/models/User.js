@@ -69,7 +69,7 @@ class User {
                     this[name] = new Date(json[name]);
                 break;
                 default:
-                    if (name.substr(0, 1) === '_') this[name] = json[name];
+                    if (name.substring(0, 1) === '_') this[name] = json[name];
 
             }
             
@@ -86,7 +86,7 @@ class User {
 
     toJSON(){
 
-        let json = [];
+        let json = {};
         
         Object.keys(this).forEach(key => {
 
@@ -131,8 +131,6 @@ class User {
     }
 
     remove(){
-
-        console.log(this);
 
         return Fetch.delete(`/users/${this.id}`);
 

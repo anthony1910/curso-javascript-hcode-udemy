@@ -28,7 +28,7 @@ class Fetch {
 
         return new Promise((resolve, reject) => {
 
-            let request = {};
+            let request;
 
             switch (method.toLowerCase()) {
 
@@ -39,7 +39,7 @@ class Fetch {
                     request = new Request(url, {
                         method,
                         body: JSON.stringify(params),
-                        header: new Headers({
+                        headers: new Headers({
                             'Content-Type': 'application/json'
                         })
                     });
@@ -61,7 +61,7 @@ class Fetch {
             }).catch(e => {
 
                 reject(e);
-                
+
             });
 
         });
